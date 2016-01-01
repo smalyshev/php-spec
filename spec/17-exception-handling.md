@@ -48,7 +48,7 @@ Class `Exception` is the base class of all exception types. This class is
 defined, as follows:
 
 ```PHP
-Class Exception implements Throwable
+class Exception implements Throwable
 {
   protected $message = 'Unknown exception';
   protected $code = 0;
